@@ -592,7 +592,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #bfbfbf;
 }
 
-.company img {
+.company_logo {
   width: max-content;
   height: 30px;
 }
