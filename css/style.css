@@ -592,6 +592,11 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #bfbfbf;
 }
 
+.company img {
+  width: max-content;
+	height: 30px;
+}
+
 .timeline-body > p,
 .timeline-body > ul {
   margin-bottom: 0;
