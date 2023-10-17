@@ -595,6 +595,8 @@ h1, h2, h3, h4, h5, h6, figure {
 .company img {
   width: max-content;
 	height: 30px;
+  max-width: 30px;
+  max-height: 30px;
 }
 
 .timeline-body > p,
@@ -639,10 +641,6 @@ h1, h2, h3, h4, h5, h6, figure {
     border-right-width: 14px;
     left: -14px;
     right: auto;
-  }
-
-  .company img {
-    display: none;
   }
 }
 .progress-wrap {
