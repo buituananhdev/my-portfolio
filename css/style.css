@@ -595,6 +595,8 @@ h1, h2, h3, h4, h5, h6, figure {
 .company img {
   width: max-content;
 	height: 30px;
+  min-height: 30px;
+	max-width: 35px;
 }
 
 .timeline-body > p,
