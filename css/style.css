@@ -595,7 +595,6 @@ h1, h2, h3, h4, h5, h6, figure {
 .company img {
   width: max-content;
 	height: 30px;
-  max-width: 30px;
   max-height: 30px;
 }
 
@@ -727,6 +726,9 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .work {
     height: 400px;
+  }
+  .company img {
+    display: none;
   }
 }
 @media screen and (max-width: 480px) {
